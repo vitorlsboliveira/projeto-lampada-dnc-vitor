@@ -1,0 +1,77 @@
+:root {
+	--preto-dnc: rgb(48, 48, 48);
+	--branco-dnc: rgb(239, 235, 228);
+	--azul-dnc: rgb(12, 112, 242);
+	--font-padrao: 'verdana';
+}
+
+body {
+	background-color: var(--preto-dnc);
+	color: var(--branco-dnc);
+	text-align: center;
+	font-family: var(--font-padrao);
+}
+
+header {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 33vw;
+}
+
+#logo {
+	width: 100px;
+	margin: 10px 20px 10px 20px;
+}
+
+section {
+	background-color: var(--branco-dnc);
+	color: var(--preto-dnc);
+	padding: 10px;
+	border-radius: 10px;
+	width: 20%;
+	margin: auto;
+}
+
+#botao_ligar {
+	background-color: var(--azul-dnc);
+	color: var(--branco-dnc);
+	border: 0;
+	width: 120px;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	transition-duration: 0.2;
+}
+
+#botao_desligar {
+	background-color: var(--azul-dnc);
+	color: var(--branco-dnc);
+	border: 0;
+	width: 120px;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+#botao_consertar {
+	background-color: var(--azul-dnc);
+	color: var(--branco-dnc);
+	border: 0;
+	width: 120px;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+#botao_ligar:hover {
+	background-color: green;
+}
+
+#botao_desligar:hover {
+	background-color: rgb(218, 0, 0);
+}
